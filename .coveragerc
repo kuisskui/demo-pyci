@@ -1,0 +1,6 @@
+[run]
+# measure branch coverage
+branch = True
+# omit uninteresting files
+omit =
+    __init__.py
