@@ -42,6 +42,4 @@ jobs:
         coverage run -m unittest test_statistics.py
     - name: Upload coverage reports to Codecov
       run: |
-        curl -Os https://uploader.codecov.io/latest/macos/codecov
-        chmod +x codecov
-        ./codecov
+        curl -Os https://uploader.codecov.io/latest/macos/codecov chmod +x codecov ./codecov
